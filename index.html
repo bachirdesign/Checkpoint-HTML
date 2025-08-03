@@ -4,21 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <section>
+    <section class="navbar">
       <h1>KAAP FAST FOOD</h1>
       <nav>
         <ul>
-          <li><a href="">accueil</a></li>
-          <li><a href="">Menu</a></li>
-          <li><a href="">Galerie</a></li>
+          <li><a href="#apropos">accueil</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#galerie">Galerie</a></li>
 
-          <li><a href="">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </section>
-    <section>
+    <section id="apropos">
         <h2>Bienvenue Chez KAPP FAST-FOOD</h2>
         <p>
 Votre nouvelle adresse gourmande, rapide et savoureuse !
@@ -26,7 +27,8 @@ Votre nouvelle adresse gourmande, rapide et savoureuse !
 Chez Kapp Fast Food, nous mettons un point d'honneur à vous offrir des repas généreux, savoureux et préparés avec soin. Que vous soyez fan de burgers artisanaux, de tacos bien garnis, de poulet croustillant ou de frites maison, notre carte variée saura combler toutes vos envies.
 
 🥤 Sur place, à emporter ou en livraison, nous sommes là pour satisfaire vos petites faims comme vos grandes envies, à tout moment de la journée.</p>
-    </section><section>
+    </section>
+    <section id="menu">
         <table border="1">
             <tr>
                 <th>Menu</th>
@@ -54,27 +56,35 @@ Chez Kapp Fast Food, nous mettons un point d'honneur à vous offrir des repas g�
             </tr>
         </table>
     </section>
-    <section>
-        <img src="assets/BURGER.jpg" alt="">
-        <img src="assets/CHICKEN PHILLY.jpg" alt="">
-        <img src="assets/FRIED CHICKEN.jpg" alt="">
-        <img src="assets/PANCAKE.jpg" alt="">
-        <img src="assets/QUESADILLA.jpg" alt="">
+    <section id="galerie">
+        
+            <div>
+                <img src="assets/BURGER.jpg" alt="">
+                <img src="assets/CHICKEN PHILLY.jpg" alt="">
+                <img src="assets/COCA COLA.jpg" alt="">
+            </div>
+
+            <div>
+                <img src="assets/FRIED CHICKEN.jpg" alt="">
+                <img src="assets/PANCAKE.jpg" alt="">
+                <img src="assets/QUESADILLA.jpg" alt="">
+            </div>
     </section>
-    <section>
+    
+    <section id="contact">
         <form action="">
             <label for="">
-                adress mail
-            </label>
-            <input type="text">
+                Adress mail
+            </label><br>
+            <input type="text"><br>
             <label for="">
                 Message
-            </label>
+            </label><br>
             <textarea name="" id=""></textarea>
             <input type="submit">
             <section>
                 <footer>
-                    copyright 2025
+                    Copyright2025
                 </footer>
             </section>
         </form>

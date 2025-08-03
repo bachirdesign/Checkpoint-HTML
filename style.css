@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: gray;
+}
+
+nav ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+ul a {
+  text-decoration: none;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    border-radius: 2px solide red;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px;
+}
+table{
+    width: 100%;
+}
+td{
+    text-align: center;
+}
+th{
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+form{
+    width: 500px;
+}
+footer{
+    color: brown;
+    font-size: 50px;
+    text-align: center ;
+margin: 20px;
+background-color: aqua;
+}
+input{
+    width: 70%;
+}
